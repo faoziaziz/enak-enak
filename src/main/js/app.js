@@ -1,7 +1,7 @@
-// tag::vars[]
-const React = require('react'); // <1>
-const ReactDOM = require('react-dom'); // <2>
-//const client = require('./client'); // <3>
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+ 
+
 class App extends React.Component {
 
     render(){
