@@ -3,6 +3,6 @@
 * Faoziaziz For Heroku
 
 ** Description 
-This code are maked use Spring-Boot and ReactJS, some feature improved like npm version whichis use latest version 6.4 28 and Node version,  but actually you can change the version of Node or npm using pom.xml
+This webapp was created using Spring-Boot and ReactJS, some features have been improved such as npm version, npm use latest version 6.4 28 and Node version 12,  but actually you can change the version of Node or npm using pom.xml
 
 
