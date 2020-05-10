@@ -43,6 +43,10 @@
     animation-duration: 2s;
   }
   
+  .center {
+
+    text-align: center;
+  }
   @keyframes fade-out {
     from {opacity: 100}
     to {opacity: 0}

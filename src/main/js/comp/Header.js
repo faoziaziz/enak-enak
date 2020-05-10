@@ -11,7 +11,7 @@ const Header = ({ children }) => {
 
   return (
     <div>
-      <div>
+      <div className="center"> 
         <h3 style={style}><Link to='/'>Home</Link></h3>
         <h3 style={style}><Link to='/contact'>Contact</Link></h3>
         <h3 style={style}><Link to="/notes">Notes</Link></h3>
