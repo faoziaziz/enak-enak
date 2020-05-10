@@ -23,12 +23,12 @@ class Jokes extends Component {
 
   render() {
     return (
-      <div>
+      <div className="center">
         <h2>Highlighted Joke</h2>
         <Joke joke={this.state.joke} />
         <hr />
         <h3>Want ten new jokes?</h3>
-        <button onClick={this.fetchJokes}>Click me!</button>
+        <button  type="button" class="btn btn-outline-primary" onClick={this.fetchJokes}>Click me!</button>
         {this.state.jokes.map(joke => (<Joke key={joke.id} joke={joke} />))}
       </div>
     )

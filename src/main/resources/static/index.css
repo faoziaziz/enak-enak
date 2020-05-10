@@ -43,6 +43,11 @@
     animation-duration: 2s;
   }
   
+  .button-center {
+    position: absolute;
+    top: 50%;
+}
+  
   .center {
 
     text-align: center;

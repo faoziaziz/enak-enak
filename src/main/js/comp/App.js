@@ -4,6 +4,12 @@ import React, { Component } from 'react';
 class App extends Component {
 
     state = { displayBio: false };
+    styles = {
+      display: 'flex',  
+      justifyContent:'center', 
+      alignItems:'center', 
+      height: '100vh'
+    }
 
     toggleDisplayBio = () => {
         this.setState({ displayBio: !this.state.displayBio });
@@ -18,15 +24,20 @@ class App extends Component {
             <p>I'm always looking forward to working on meaningful projects.</p>
         {
           this.state.displayBio ? (
-            <div>
+            <div className="center">
               <p>I live in San Francisco, and code every day.</p>
               <p>My favorite language is JavaScript, and I think React.js is awesome.</p>
               <p>Besides coding, I also love music and ramen!</p>
-              <button onClick={this.toggleDisplayBio}>Show less</button>
+              <button  type="button" className="btn btn-outline-primary"
+ 
+               onClick={this.toggleDisplayBio}>Show less</button>
             </div>
           ) : (
-            <div>
-              <button onClick={this.toggleDisplayBio}>Read more</button>
+            <div className="center">
+              <button  
+              type="button" className="btn btn-outline-primary"  
+               
+              onClick={this.toggleDisplayBio}>Read more</button>
             </div>
           )
         }
