@@ -11,8 +11,9 @@ class App extends Component {
 
 
     render() {
-        return (<div>
-            <h1>Hallo, Pecinta Roti !!</h1>
+        return (
+        <div>
+            <h1 >Hallo, Pecinta Roti !!</h1>
             <p>Aku pecinta roti, kamu juga??</p>
             <p>I'm always looking forward to working on meaningful projects.</p>
         {
@@ -30,11 +31,15 @@ class App extends Component {
           )
         }
 
-        </div>);
+        </div>
+        );
 
     }
 
 
 }
+
+
+
 
 export default App;
