@@ -3,6 +3,18 @@
 * Faoziaziz For Heroku
 
 ** Description 
-This webapp was created using Spring-Boot and ReactJS, some features have been improved such as npm version, npm use latest version 6.4 28 and Node version 12,  but actually you can change the version of Node or npm using pom.xml
+This webapp was created using Spring-Boot and ReactJS, some features
+been improved such as npm version, npm use latest version 6.4 28 and Node version 12,  but actually you can change the version of Node or npm using pom.xml
 
 
+** Dependency
+first you must install postgresql openjdk-8 and maven to build this. If you use ubuntu 20.04 you can use this command, copy 
+the postgesql setting so your springboot can acces the databases
+#+BEGIN_SRC bash
+sudo apt install postgresql postgresql-contrib openjdk-8-jdk
+sudo cp pg_hba.conf /etc/postgresql/12/main/
+#+END_SRC
+
+
+* Referensi
+1. https://linuxize.com/post/how-to-install-postgresql-on-ubuntu-18-04/
