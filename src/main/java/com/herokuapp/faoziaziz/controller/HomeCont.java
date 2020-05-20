@@ -11,12 +11,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeCont {
 
-    @RequestMapping(value={"/", "contact","notes"})
+    @RequestMapping(value={"/", "contact","notes", "cats"})
     public String index(){
 
         return "index";
 
     }
+
+  
     
 
 
