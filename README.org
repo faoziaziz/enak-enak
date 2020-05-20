@@ -14,7 +14,19 @@ the postgesql setting so your springboot can acces the databases
 sudo apt install postgresql postgresql-contrib openjdk-8-jdk
 sudo cp pg_hba.conf /etc/postgresql/12/main/
 #+END_SRC
+if you wanna set your database you can edit the set_env.sh
 
+#+BEGIN_SRC bash
+export PSQL_USERNAME=intan
+export PSQL_PASSWORD=IntanCantik
+export PSQL_PORT=5432
+export PSQL_URL=localhost
+export PSQL_DATABASE=intan
+#+END_SRC
+
+* Report 
+i add some csv 
+http://zetcode.com/springboot/csv/
 
 * Referensi
 1. https://linuxize.com/post/how-to-install-postgresql-on-ubuntu-18-04/
