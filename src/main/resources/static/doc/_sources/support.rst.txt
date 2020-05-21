@@ -1,0 +1,12 @@
+Support
+=========================================
+
+You can email me on admin@labseni.com
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

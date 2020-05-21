@@ -20,7 +20,7 @@ function Blog(props) {
   }
   
   const posts = [
-    {id: 1, title: 'Dataset', content: 'If you wanna make dataset plis read this documents'},
+    {id: 1, title: 'Dataset', content: 'If you wanna make dataset please read this documents'},
     {id: 2, title: 'Use', content: 'if you wana use this dataset please read this documents'}
   ];
   
