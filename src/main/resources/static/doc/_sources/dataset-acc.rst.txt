@@ -1,0 +1,19 @@
+Dataset Access
+=========================================
+if you want to access data set you can use your python3, especially in jupyter notebook
+
+.. code-block:: python
+
+  import pandas as pd
+  df_cats=pd.read_csv("https://faoziaziz.herokuapp.com/cities", index)
+  df_cats
+
+so if you want to get more you can test the api
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
